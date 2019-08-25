@@ -6,9 +6,9 @@ export default class Menu extends Component {
       return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            <span className="d-block d-lg-none">Clarence Taylor</span>
+            <span className="d-block d-lg-none">Ja Nakh Pon</span>
             <span className="d-none d-lg-block">
-                <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="" />
+                <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Ja Nakh Pon" />
             </span>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,6 +27,9 @@ export default class Menu extends Component {
                 </li>
                 <li className="nav-item">
                     <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link js-scroll-trigger" href="#works">Works</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
