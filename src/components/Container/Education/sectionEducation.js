@@ -23,7 +23,7 @@ export default class Education extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                         <div className="resume-content">
-                            <h3 className="mb-0">NO(9) BEHS , National School</h3>
+                            <h3 className="mb-0">NO(9) B.E.H.S , National High School</h3>
                             <div className="subheading mb-3">General Education Program</div>
                             <p>GPA: 3.56</p>
                         </div>
