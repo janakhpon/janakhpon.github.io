@@ -11,24 +11,35 @@ export default class Education extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">University of Colorado Boulder</h3>
-                            <div className="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
+                            <h3 className="mb-0">Technological University of Mawlamyine</h3>
+                            <div className="subheading mb-3">Bachelor of Engineering </div>
+                            <div>Specialized at Information Technology</div>
                             <p>GPA: 3.23</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">August 2006 - May 2010</span>
+                            <span className="text-primary">August 2014 - May 2020</span>
                         </div>
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                         <div className="resume-content">
-                            <h3 className="mb-0">James Buchanan High School</h3>
-                            <div className="subheading mb-3">Technology Magnet Program</div>
+                            <h3 className="mb-0">NO(9) BEHS , National School</h3>
+                            <div className="subheading mb-3">General Education Program</div>
                             <p>GPA: 3.56</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">August 2002 - May 2006</span>
+                            <span className="text-primary">August 2002 - May 2013</span>
+                        </div>
+                    </div>
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
+                            <h3 className="mb-0">ANNUAL IELTS EXAMINATION TEST</h3>
+                            <div className="subheading mb-3">Band 7 </div>
+                            <div>Specialized at Engineering</div>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">Sep - 2018</span>
                         </div>
                     </div>
 

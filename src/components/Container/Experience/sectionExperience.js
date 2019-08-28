@@ -10,45 +10,35 @@ export default class Experience extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Senior Web Developer</h3>
-                            <div className="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 className="mb-0">Lead Developer at GTG(Greentech Innovation Group)</h3>
+                            <div className="subheading mb-3">Market solution & fully fleged software production</div>
+                            <p>Bring software solution based on market needs and manage projects to make client fully satisfied for their products</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">March 2013 - Present</span>
+                            <span className="text-primary">March 2018 - Present</span>
                         </div>
                     </div>
 
-                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">Web Developer</h3>
-                            <div className="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">December 2011 - March 2013</span>
-                        </div>
-                    </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Junior Web Designer</h3>
-                            <div className="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <h3 className="mb-0">Fullstack Engineer at GTG(Greentech Innovation Group)</h3>
+                            <div className="subheading mb-3">Website Building Company</div>
+                            <p>Building Fullstack web app for Shop, supermarkets and a variety of market demanding products.</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">July 2010 - December 2011</span>
+                            <span className="text-primary">July 2017 - December 2018</span>
                         </div>
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                         <div className="resume-content">
-                            <h3 className="mb-0">Web Design Intern</h3>
-                            <div className="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            <h3 className="mb-0">Web Design Collaboration (Github)</h3>
+                            <div className="subheading mb-3">Recruting and Collaboration</div>
+                            <p>Collaboratively participate in version based projects for WDC's templates and theme</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">September 2008 - June 2010</span>
+                            <span className="text-primary">September 2016 - June 2017</span>
                         </div>
                     </div>
 

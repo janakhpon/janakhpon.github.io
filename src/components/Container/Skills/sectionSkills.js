@@ -49,13 +49,13 @@ export default class Skills extends Component {
                             <i className="fab fa-npm"></i>
                         </li>
                         <li className="list-inline-item">
-                        <i class="fab fa-yarn"></i>
+                            <i class="fab fa-yarn"></i>
                         </li>
                         <li className="list-inline-item">
-                        <i class="fab fa-python"></i>
+                            <i class="fab fa-python"></i>
                         </li>
                         <li className="list-inline-item">
-                        <i class="fas fa-terminal"></i>
+                            <i class="fas fa-terminal"></i>
                         </li>
 
                     </ul>
@@ -65,6 +65,16 @@ export default class Skills extends Component {
                         <li>
                             <i className="fa-li fa fa-check"></i>
                             Mobile-First, Responsive Design</li>
+
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            Fullstack web app Development </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            crossed platform os app Development </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            Mobile app Development</li>
                         <li>
                             <i className="fa-li fa fa-check"></i>
                             Cross Browser Testing &amp; Debugging</li>
