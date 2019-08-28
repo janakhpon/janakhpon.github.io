@@ -10,6 +10,18 @@ export default class Works extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
+                            <h3 className="mb-0">AI & Data Science Projects</h3>
+                            <div className="subheading mb-3">collections of AI & Data Science</div>
+                            <p>Most of the AI projects are built by Tensorflow,keras,ML5 and for Data Science popular python libraries such as Numpy, Pandas, Matplot and for presentation they're wrapped in Jupyter Notebook.</p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary"><a href="/">VIEW AI & DS PROJECTS</a></span>
+                        </div>
+                    </div>
+
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
                             <h3 className="mb-0">Fullstack Application Development</h3>
                             <div className="subheading mb-3">fully fleged web app projects collection</div>
                             <p>Most of Fullstack projects are built by Django,Flask,NodeJS,NextJS,ExpressJS as backend and React,Vue,Angular and normal template engine as frontend.</p>
