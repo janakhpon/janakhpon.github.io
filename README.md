@@ -1,5 +1,5 @@
 # janakhpon.github.io
-  `janakhpon.github.io` is my personal portfolio website using React and Bootstrap to use as a frontend client but backend `api` and major options are still in progress.Here is a github deployed link [githubdeployedlink](https://ei-sgallery.herokuapp.com/)
+  `janakhpon.github.io` is my personal portfolio website using React and Bootstrap to use as a frontend client but backend `api` and major options are still in progress.Here is a github deployed link [GithubPage](https://nostalgic-goodall-d365ce.netlify.com/)
 
 
 
