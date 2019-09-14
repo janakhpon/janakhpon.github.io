@@ -1,5 +1,5 @@
-# Ei'Gallery
-  Ei'sGallery is a simple wallpaper website for nature lover.You can upload wallpaper with related TYPE and TAG WORDS and as a consequence of this you can easily select TYPE options or SEARCH TAG WORDS from search box. CRUD operation can only be done with admin route. Here is a github example demo for [herokudeploy](https://ei-sgallery.herokuapp.com/)
+# janakhpon.github.io
+  `janakhpon.github.io` is my personal portfolio website using React and Bootstrap to use as a frontend client but backend `api` and major options are still in progress.Here is a github deployed link [githubdeployedlink](https://ei-sgallery.herokuapp.com/)
 
 
 
@@ -7,11 +7,11 @@
 
 clone the repository
 
-    git clone https://github.com/janakhpon/Ei-sGallery.git
+    git clone https://github.com/janakhpon/janakhpon.github.io.git
 
 Get into root folder
 
-    cd Ei'sGallery
+    cd janakhpon.github.io
 
 Install Dependencies using [npm](https://www.npmjs.com/)
 
@@ -48,9 +48,9 @@ sudo npm run start
 sudo npm run dev
 ```
 
-#API REQUESTS
-Currently only list of data `get` request only is possile to make but i still havent add `allow cross origin` option for external request.
+#STATUS(IN PROGRESS)
+  Most of the major features are not available yet but still working great on it own.
 ```bash
-axios.get('https://ei-sgallery.herokuapp.com/ei-gallery/list', ...)
+//still in progress
 ```
 
