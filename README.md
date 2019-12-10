@@ -1,5 +1,5 @@
 # janakhpon.github.io
-  `janakhpon.github.io` is my personal portfolio website using React and Bootstrap to use as a frontend client but backend `api` and major options are still in progress.Here is a github deployed link [GithubPage](https://nostalgic-goodall-d365ce.netlify.com/)
+  `janakhpon.github.io` is my personal portfolio website using React and Bootstrap to use as a frontend client but backend `api` and major options are still in progress.Here is a github deployed link [GithubPage](https://nostalgic-goodall-d365ce.netlify.com/).If you are considering to use my template too, follow the instructions below.
 
 
 
