@@ -33,12 +33,19 @@ export default class Skills extends Component {
                         <li className="list-inline-item">
                             <i className="fab fa-sass"></i>
                         </li>
-                        <li className="list-inline-item">
-                            <i className="fab fa-less"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="fab fa-wordpress"></i>
-                        </li>
+                        {
+                            /**
+                             * 
+                             * <li className="list-inline-item">
+                                    <i className="fab fa-less"></i>
+                                 </li>
+
+                                 <li className="list-inline-item">
+                                    <i className="fab fa-wordpress"></i>
+                                 </li>
+                             */
+                        }
+
                         <li className="list-inline-item">
                             <i className="fab fa-gulp"></i>
                         </li>

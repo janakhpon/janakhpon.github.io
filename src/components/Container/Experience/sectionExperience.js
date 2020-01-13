@@ -15,12 +15,12 @@ export default class Experience extends Component {
                             <p> Greentech Innovation Group was formed by me and my classmates since 2017 to share our Knowledge about IT technology to junior students and group members and it's also a coding commnutiy for helping coders overcome their errors and problems.</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">March 2018 - Present</span>
+                            <span className="text-primary">Jan 2016 - Present</span>
                         </div>
                     </div>
 
 
-                    
+
                     {
                         /**
                          * 
@@ -39,12 +39,12 @@ export default class Experience extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                         <div className="resume-content">
-                            <h3 className="mb-0">Web Design Collaboration (Github)</h3>
+                            <h3 className="mb-0">Web Design Collaboration</h3>
                             <div className="subheading mb-3">Recruting and Collaboration</div>
-                            <p>Collaboratively participate in version based projects for WDC's templates and theme</p>
+                            <p>Collaboratively participate in University Web Development Bootcamp for Basic Web Design and group based Knowledge sharing. </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">September 2016 - June 2017</span>
+                            <span className="text-primary">September 2015 - December 2015</span>
                         </div>
                     </div>
 
