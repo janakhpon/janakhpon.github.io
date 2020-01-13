@@ -15,7 +15,7 @@ export default class About extends Component {
                     </div>
                     <p className="lead mb-5"> Detailed-oriented and self-motivated fullstack engineer with both advanced education and solid experienced in technoloy. </p>
                     <div className="social-icons">
-                        <a href="www.linkedin.com/in/zinmin-htutoo-385651136">
+                        <a href="https://www.linkedin.com/in/zinmin-htutoo-385651136">
                             <i className="fab fa-linkedin-in"></i>
                         </a>
                         <a href="https://github.com/janakhpon">
@@ -24,7 +24,7 @@ export default class About extends Component {
                         <a href="https://twitter.com/ja_nakh">
                             <i className="fab fa-twitter"></i>
                         </a>
-                        <a href="/">
+                        <a href="https://www.facebook.com/minchanhtutoo.5">
                             <i className="fab fa-facebook-f"></i>
                         </a>
                     </div>
