@@ -34,9 +34,9 @@ export default class Environment extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Design library Development</h3>
-                            <div className="subheading mb-3">Fully scalable to responsiveness & Rich UI/UX design templates </div>
-                            <p>UI/UX design library for future projects are built using SASS/SCSS, CSS3 and HTML5 and a combination other popular design libraries.</p>
+                            <h3 className="mb-0">Version Control Systems</h3>
+                            <div className="subheading mb-3">VCS I've been using </div>
+                            <p> I've been using Github as my main VCS most of the time and sometimes i use Gitlab for my side projects. </p>
                         </div>
                         <div className="resume-date text-md-right">
                             <span className="text-primary"><a href="/">VIEW DESIGN LIBRARIES PROJECTS</a></span>
