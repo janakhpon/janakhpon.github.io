@@ -15,19 +15,19 @@ export default class Environment extends Component {
                             <p>I've been using Linux since 2015 and my favorite Distro is Arch Linux but I'm also using Ubuntu and Windows 10 pro for Software Development.</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW AI PROJECTS</a></span>
+                            <span className="text-primary"><a href="/">CONFIGURATION SETTINGS</a></span>
                         </div>
                     </div>
 
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Fullstack Application Development</h3>
-                            <div className="subheading mb-3">fully fleged web app projects collection</div>
-                            <p>Most of Fullstack projects are built by Django,Flask,NodeJS(NextJS,ExpressJS) as backend and React,Vue,Angular and normal template engine as frontend.</p>
+                            <h3 className="mb-0">Command Line Environment</h3>
+                            <div className="subheading mb-3">Conmmand Line Environment I've been using</div>
+                            <p>I am a big fan of Z-Shell especially with Oh-My-Zsh and I am also familiar with Bash Shell and Windows Command Prompt. </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW FULLSTACK PROJECTS</a></span>
+                            <span className="text-primary"><a href="/">SHELL CONFIGURATION</a></span>
                         </div>
                     </div>
 
