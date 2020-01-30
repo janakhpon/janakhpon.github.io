@@ -46,7 +46,7 @@ export default class Environment extends Component {
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
                             <h3 className="mb-0">Databases</h3>
-                            <div className="subheading mb-3">SQL and NoSQL I've been using </div>
+                            <div className="subheading mb-3">SQL and NoSQL Databases I've been using </div>
                             <p> My database of choice is MongoDB but I'm also familiar Redis, MySQL and Firebase. </p>
                         </div>
                         <div className="resume-date text-md-right">
@@ -70,7 +70,6 @@ export default class Environment extends Component {
                         </div>
                     </div>
 
-
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
                             <h3 className="mb-0">Programming Languages</h3>
@@ -83,12 +82,12 @@ export default class Environment extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Databases</h3>
-                            <div className="subheading mb-3">SQL and NoSQL I've been using </div>
-                            <p> My database of choice is MongoDB but I'm also familiar Redis, MySQL and Firebase. </p>
+                            <h3 className="mb-0">Frameworks</h3>
+                            <div className="subheading mb-3"> FRAMEWORKS & LIBRARIES </div>
+                            <p> ReactJS,Vue,Angular for frontend development and Material-ui, Bootstrap for UI and SCSS/CSS3 for styling and Express, Django, Flask, NextJs, NestJS for Backend Development. For Cross platform development I use Electron.js and for mobile development React Native is my choice.  </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW DATABASE CONFIGURATION</a></span>
+                            <span className="text-primary"><a href="/">VIEW PROJECTS</a></span>
                         </div>
                     </div>
 
