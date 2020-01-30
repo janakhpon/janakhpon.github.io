@@ -10,9 +10,9 @@ export default class Environment extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">AI Projects</h3>
-                            <div className="subheading mb-3">collections of AI</div>
-                            <p>Most of the AI projects are built by Tensorflow,keras and popular python libraries such as Numpy, Pandas, Matplot, seaborn and mostly in Jupyter Notebook.</p>
+                            <h3 className="mb-0">Operating Systems</h3>
+                            <div className="subheading mb-3">Operating Systems I've been using</div>
+                            <p>I've been using Linux since 2015 and my favorite Distro is Arch Linux but I'm also using Ubuntu and Windows 10 pro for Software Development.</p>
                         </div>
                         <div className="resume-date text-md-right">
                             <span className="text-primary"><a href="/">VIEW AI PROJECTS</a></span>
