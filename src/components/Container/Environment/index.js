@@ -61,6 +61,37 @@ export default class Environment extends Component {
                         </div>
                     </div>
 
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
+                            <h3 className="mb-0">Cloud Platforms</h3>
+                            <div className="subheading mb-3">Development and Deployment Platforms</div>
+                            <p> I am always using Heroku for development and also using Google Cloud Environment, Firebase, AWS, Netlify, Zeit, Awardspace and Webhost. </p>
+                        </div>
+                    </div>
+
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
+                            <h3 className="mb-0">Programming Languages</h3>
+                            <p> Javascript/Typescript/Python/GoLang/PHP are the Languages i use for development. </p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary"><a href="/">VIEW PROJECTS</a></span>
+                        </div>
+                    </div>
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
+                            <h3 className="mb-0">Databases</h3>
+                            <div className="subheading mb-3">SQL and NoSQL I've been using </div>
+                            <p> My database of choice is MongoDB but I'm also familiar Redis, MySQL and Firebase. </p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary"><a href="/">VIEW DATABASE CONFIGURATION</a></span>
+                        </div>
+                    </div>
+
                 </div>
 
             </section>
