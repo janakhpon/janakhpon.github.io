@@ -50,19 +50,14 @@ export default class Environment extends Component {
                             <p> My database of choice is MongoDB but I'm also familiar Redis, MySQL and Firebase. </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW OS APPLICATION PROJECTS</a></span>
+                            <span className="text-primary"><a href="/">VIEW DATABASE CONFIGURATION</a></span>
                         </div>
                     </div>
 
-
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Mobile Application Development</h3>
-                            <div className="subheading mb-3"> Rich features and Data driven Application </div>
-                            <p>Mobile Applications are usually developed by using ReactNative and a variety of Database including NoSQL and SQL mostly as client side app.</p>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW MOBILE APPLICATION PROJECTS</a></span>
+                            <h3 className="mb-0">Container</h3>
+                            <div className="subheading mb-3"> I've been using Docker for development with Container. </div>
                         </div>
                     </div>
 
