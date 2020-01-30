@@ -45,9 +45,9 @@ export default class Environment extends Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Crossed Platform Application Development</h3>
-                            <div className="subheading mb-3">fully fleged features Application & Data driven Application</div>
-                            <p>Crossed Platform Application are targeting to Linux,Windows and Mac Operating System and are built using ElectronJS. </p>
+                            <h3 className="mb-0">Databases</h3>
+                            <div className="subheading mb-3">SQL and NoSQL I've been using </div>
+                            <p> My database of choice is MongoDB but I'm also familiar Redis, MySQL and Firebase. </p>
                         </div>
                         <div className="resume-date text-md-right">
                             <span className="text-primary"><a href="/">VIEW OS APPLICATION PROJECTS</a></span>
