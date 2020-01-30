@@ -6,6 +6,7 @@ import Skills from './Skills/sectionSkills'
 import Interests from './Interests/sectionInterests'
 import Awards from './Awards/sectionAwards'
 import Works from './Works'
+import Environment from './Environment'
 import './displayContainer.css'
 
 export default class Container extends Component {
@@ -13,27 +14,30 @@ export default class Container extends Component {
         return (
             <div className="container-fluid p-0">
 
-                <About/>
+                <About />
                 <hr className="m-0" />
 
-                <Experience/>
-                <hr className="m-0" />
- 
-                <Education/>
+                <Experience />
                 <hr className="m-0" />
 
-                <Skills/>
+                <Education />
                 <hr className="m-0" />
 
-                <Works/>
+                <Skills />
                 <hr className="m-0" />
 
-                <Interests/>
+                <Works />
                 <hr className="m-0" />
 
-                <Awards/>
-                
-                
+                <Environment />
+                <hr className="m-0" />
+
+                <Interests />
+                <hr className="m-0" />
+
+                <Awards />
+
+
             </div>
         );
     }
