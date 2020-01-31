@@ -73,7 +73,7 @@ export default class Environment extends Component {
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
                             <h3 className="mb-0">Programming Languages</h3>
-                            <p> Javascript, Typescript are Python are the Languages I am using for development at the moment but i also used to code with Java,PHP and Shell Scripts. </p>
+                            <p> Javascript, Typescript and Python are the Languages I am using for development at the moment but i also used to code with Java,PHP and Shell Scripts. </p>
                         </div>
                         <div className="resume-date text-md-right">
                             <span className="text-primary"><a href="/">VIEW PROJECTS</a></span>
