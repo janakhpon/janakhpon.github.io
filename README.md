@@ -48,8 +48,6 @@ sudo npm run start
 sudo npm run dev
 ```
 
-#STATUS(IN PROGRESS)
-  Most of the major features are not available yet but still working great on it own.
 ```bash
 //still in progress
 ```
