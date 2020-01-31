@@ -8,10 +8,10 @@ export default class About extends Component {
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
                 <div className="w-100">
                     <h1 className="mb-0">Ja Nakh
-<span className="text-primary"> Pon</span>
+                        <span className="text-primary"> Pon</span>
                     </h1>
-                    <div className="subheading mb-5">No.82 Khayay Street · Mawlamyine(moulmein), Ngantae Ward · (+95) 09 7923 59726 ·
-<a href="mailto:minchanhtutoo@gmail.com">minchanhtutoo@gmail.com</a>
+                    <div className="subheading mb-5">No.82 Khayay Street · Mawlamyine(moulmein), Ngantae Ward · <a href="tel:+9509792359726">(+95) 09 7923 59726 </a> · 
+                    <a href="mailto:minchanhtutoo@gmail.com">minchanhtutoo@gmail.com</a>
                     </div>
                     <p className="lead mb-5"> Detailed-oriented and self-motivated fullstack engineer with both advanced education and solid experienced in technoloy. </p>
                     <div className="social-icons">
