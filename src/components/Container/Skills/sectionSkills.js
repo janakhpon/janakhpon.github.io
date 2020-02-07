@@ -56,13 +56,13 @@ export default class Skills extends Component {
                             <i className="fab fa-npm"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i class="fab fa-yarn"></i>
+                            <i className="fab fa-yarn"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i class="fab fa-python"></i>
+                            <i className="fab fa-python"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i class="fas fa-terminal"></i>
+                            <i className="fas fa-terminal"></i>
                         </li>
 
                     </ul>
