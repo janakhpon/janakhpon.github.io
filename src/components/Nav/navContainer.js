@@ -1,12 +1,16 @@
 import React from 'react'
-import styled from 'styled-components'
+import { useTheme } from '../../ThemeContext';
+import styled from 'styled-components';
+import { navbackgroundColor, navtextColor } from '../../theme';
 
 const NavWrapper = styled.nav`
-    color: white;
-    background: mediumblue;
+    color: ${navtextColor} !important;
+    background: ${navbackgroundColor} !important;
 `
 
 const Menu = (props) => {
+    const themeToggle = useTheme();
+
     return (
         <NavWrapper className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">
@@ -20,6 +24,12 @@ const Menu = (props) => {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <label class="switch-wrap">
+                            <input className="nav-link" type="checkbox" onClick={() => themeToggle.toggle()} />
+                            <div class="switch"></div>
+                        </label>
+                    </li>
                     <li className="nav-item">
                         <a className="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
