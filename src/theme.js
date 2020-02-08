@@ -42,3 +42,8 @@ export const containertextColor = theme('mode', {
   light: '#353a40',
   dark: '#b1a997'
 })
+
+export const switchValue = theme('mode', {
+  light: false,
+  dark: true
+})

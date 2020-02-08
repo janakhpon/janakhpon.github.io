@@ -12,11 +12,6 @@ export const MyThemeProvider = ({ children }) => {
         mode: 'light'
     });
 
-    const Wrapper = styled.div`
-    background-color: ${backgroundColor};
-    color: ${textColor};
-  `;
-
     const toggle = () => {
         const mode = (themeState.mode === 'light' ? `dark` : `light`);
         setThemeState({ mode: mode });
@@ -29,9 +24,9 @@ export const MyThemeProvider = ({ children }) => {
                     mode: themeState.mode
                 }}
             >
-                <Wrapper>
-                    {children}
-                </Wrapper>
+
+                {children}
+
             </ThemeProvider>
         </ThemeToggleContext.Provider>
     );

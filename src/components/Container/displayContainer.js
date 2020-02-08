@@ -7,12 +7,17 @@ import Interests from './Interests/sectionInterests'
 import Awards from './Awards/sectionAwards'
 import Works from './Works'
 import Environment from './Environment'
+import styled from 'styled-components';
+import { containerbackgroundColor, containertextColor } from '../../theme';
 
+const ContainerWrapper = styled.div`
+    color: ${containertextColor} !important;
+    background: ${containerbackgroundColor} !important;
+`
 
 const Container = (props) => {
     return (
-        <div className="container-fluid p-0">
-
+        <ContainerWrapper className="container-fluid p-0">
             <About />
             <hr className="m-0" />
 
@@ -37,7 +42,7 @@ const Container = (props) => {
             <Awards />
 
 
-        </div>
+        </ContainerWrapper>
     )
 }
 

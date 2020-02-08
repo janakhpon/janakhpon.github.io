@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useTheme } from '../../ThemeContext';
 import styled from 'styled-components';
 import { navbackgroundColor, navtextColor } from '../../theme';
@@ -7,9 +7,33 @@ const NavWrapper = styled.nav`
     color: ${navtextColor} !important;
     background: ${navbackgroundColor} !important;
 `
-
 const Menu = (props) => {
+
+    console.log(props.theme)
+
+    const [check, setCheck] = React.useState(false)
+
     const themeToggle = useTheme();
+
+
+    const handleOnChange = async (e) => {
+        if (check === true) {
+            setCheck(false)
+            try {
+                themeToggle.toggle()
+            } catch (err) {
+
+            }
+        } else {
+            setCheck(true)
+            try {
+                themeToggle.toggle()
+            } catch (err) {
+
+            }
+        }
+    }
+
 
     return (
         <NavWrapper className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -25,11 +49,13 @@ const Menu = (props) => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <label class="switch-wrap">
-                            <input className="nav-link" type="checkbox" onClick={() => themeToggle.toggle()} />
-                            <div class="switch"></div>
+                        <label className="switch-wrap">
+                            <input className="form-check-input" type="checkbox" checked={check}
+                                onChange={handleOnChange} />
+                            <div className="switch"></div>
                         </label>
                     </li>
+
                     <li className="nav-item">
                         <a className="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
