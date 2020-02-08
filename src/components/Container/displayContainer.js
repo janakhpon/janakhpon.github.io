@@ -4,7 +4,7 @@ import Experience from './Experience/sectionExperience'
 import Education from './Education/sectionEducation'
 import Skills from './Skills/sectionSkills'
 import Interests from './Interests/sectionInterests'
-import Awards from './Awards/sectionAwards'
+// import Awards from './Awards/sectionAwards'
 import Works from './Works'
 import Environment from './Environment'
 import styled from 'styled-components';
@@ -39,7 +39,7 @@ const Container = (props) => {
             <Interests />
             <hr className="m-0" />
 
-            <Awards />
+            {/* <Awards /> */}
 
 
         </ContainerWrapper>

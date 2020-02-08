@@ -6,6 +6,7 @@ import './sectionAbout.css'
 const Subdiv = styled.div`
     a{
         color: ${aofsubheadingdiv};
+        font-size: 0.85em;
     }
 `
 const Subhead = styled.h1`
