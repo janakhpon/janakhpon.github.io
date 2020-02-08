@@ -7,6 +7,7 @@ import Interests from './Interests/sectionInterests'
 // import Awards from './Awards/sectionAwards'
 import Works from './Works'
 import Environment from './Environment'
+import CV from './CV'
 import styled from 'styled-components';
 import { containerbackgroundColor, containertextColor } from '../../theme';
 
@@ -39,6 +40,7 @@ const Container = (props) => {
             <Interests />
             <hr className="m-0" />
 
+            <CV />
             {/* <Awards /> */}
 
 
