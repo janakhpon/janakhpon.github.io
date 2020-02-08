@@ -45,7 +45,7 @@ export default class Environment extends Component {
                         <div className="resume-content">
                             <h3 className="mb-0">Version Control Systems</h3>
                             <div className="subheading mb-3">VCS I've been using </div>
-                            <p> I've been using Github as my main VCS most of the time and sometimes i use Gitlab for my side projects. </p>
+                            <p> I've been using Github since 2018 as my main VCS most of the time and sometimes i use Gitlab for my side projects. </p>
                         </div>
                         {/* <div className="resume-date text-md-right">
                             <span className="text-primary"><a href="/">VIEW DESIGN LIBRARIES PROJECTS</a></span>

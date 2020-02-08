@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import {titletextColor} from '../../../theme'
+import { titletextColor } from '../../../theme'
 import './sectionSkills.css'
 
 const Head = styled.div`
@@ -26,6 +26,9 @@ export default class Skills extends Component {
                             <i className="fab fa-css3-alt"></i>
                         </li>
                         <li className="list-inline-item">
+                            <i class="fab fa-bootstrap"></i>
+                        </li>
+                        <li className="list-inline-item">
                             <i className="fab fa-js-square"></i>
                         </li>
                         {/* <li className="list-inline-item">
@@ -33,6 +36,12 @@ export default class Skills extends Component {
                         </li> */}
                         <li className="list-inline-item">
                             <i className="fab fa-react"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i class="fab fa-vuejs"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i class="fab fa-angular"></i>
                         </li>
                         <li className="list-inline-item">
                             <i className="fab fa-node-js"></i>
@@ -64,6 +73,9 @@ export default class Skills extends Component {
                         </li>
                         <li className="list-inline-item">
                             <i className="fab fa-yarn"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="fab fa-node-js"></i>
                         </li>
                         <li className="list-inline-item">
                             <i className="fab fa-python"></i>
