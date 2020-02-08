@@ -1,11 +1,24 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+import {titletextColor, spantextColor} from '../../../theme'
 import './index.css'
+
+const Head = styled.div`
+    h2, h3{
+        color: ${titletextColor} !important;
+    }
+`
+const Spanhead = styled.span`
+    a{
+        color: ${spantextColor} !important;
+    }
+`
 
 export default class Works extends Component {
     render() {
         return (
             <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="works">
-                <div className="w-100">
+                <Head className="w-100">
                     <h2 className="mb-5">Projects</h2>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -15,7 +28,7 @@ export default class Works extends Component {
                             <p>Most of the AI projects are built by Tensorflow,keras and popular python libraries such as Numpy, Pandas, Matplot, seaborn and mostly in Jupyter Notebook.</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW AI PROJECTS</a></span>
+                            <Spanhead className="text-primary"><a href="/">VIEW AI PROJECTS</a></Spanhead>
                         </div>
                     </div>
 
@@ -27,7 +40,7 @@ export default class Works extends Component {
                             <p>Most of Fullstack projects are built by Django,Flask,NodeJS(NextJS,ExpressJS) as backend and React,Vue,Angular and normal template engine as frontend.</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW FULLSTACK PROJECTS</a></span>
+                            <Spanhead className="text-primary"><a href="/">VIEW FULLSTACK PROJECTS</a></Spanhead>
                         </div>
                     </div>
 
@@ -39,7 +52,7 @@ export default class Works extends Component {
                             <p>UI/UX design library for future projects are built using SASS/SCSS, CSS3 and HTML5 and a combination other popular design libraries.</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW DESIGN LIBRARIES PROJECTS</a></span>
+                            <Spanhead className="text-primary"><a href="/">VIEW DESIGN LIBRARIES PROJECTS</a></Spanhead>
                         </div>
                     </div>
 
@@ -50,7 +63,7 @@ export default class Works extends Component {
                             <p>Crossed Platform Application are targeting to Linux,Windows and Mac Operating System and are built using ElectronJS. </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW OS APPLICATION PROJECTS</a></span>
+                            <Spanhead className="text-primary"><a href="/">VIEW OS APPLICATION PROJECTS</a></Spanhead>
                         </div>
                     </div>
 
@@ -62,11 +75,11 @@ export default class Works extends Component {
                             <p>Mobile Applications are usually developed by using ReactNative and a variety of Database including NoSQL and SQL mostly as client side app.</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW MOBILE APPLICATION PROJECTS</a></span>
+                            <Spanhead className="text-primary"><a href="/">VIEW MOBILE APPLICATION PROJECTS</a></Spanhead>
                         </div>
                     </div>
 
-                </div>
+                </Head>
 
             </section>
         );
