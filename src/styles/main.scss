@@ -3,7 +3,7 @@
 html,
 body,
 * {
-    font-family: 'Roboto', 'Helvetica';
+    font-family: 'Fira Code';
 }
 
 //HOW THIS WORKS:
@@ -27,6 +27,7 @@ $height: $width / 2+$padding;
     width: $width;
     height: $height;
     border-radius: $height / 2;
+
     input {
         position: absolute;
         opacity: 0;
@@ -45,7 +46,7 @@ $height: $width / 2+$padding;
     &::after {
         content: '🌞';
         border-radius: 50%;
-        background: #ccc;
+        background: #97D1D1;
         grid-column: 2;
         transition: background .2s;
     }
@@ -57,7 +58,7 @@ input:checked {
 
         &::after {
             content: '🌙';
-            background-color: #52cf71;
+            background-color: #2e4482;
         }
     }
 }
