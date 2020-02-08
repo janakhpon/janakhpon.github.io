@@ -69,7 +69,7 @@ const Menu = (props) => {
                         <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#cv">CV/Resume</a>
+                        <a className="nav-link js-scroll-trigger" href="#CV">Resume</a>
                     </li>
                     {
                         /**
