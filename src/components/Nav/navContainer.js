@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useTheme } from '../../ThemeContext';
 import styled from 'styled-components';
 import { navbackgroundColor, navtextColor } from '../../theme';
