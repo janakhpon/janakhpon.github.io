@@ -1,11 +1,20 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+import { titletextColor } from '../../../theme'
 import './index.css'
+
+const Head = styled.div`
+    h2, h3{
+        color: ${titletextColor} !important;
+    }
+`
+
 
 export default class Environment extends Component {
     render() {
         return (
             <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="environment">
-                <div className="w-100">
+                <Head className="w-100">
                     <h2 className="mb-5">Development Environment</h2>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -91,7 +100,7 @@ export default class Environment extends Component {
                         </div> */}
                     </div>
 
-                </div>
+                </Head>
 
             </section>
         );

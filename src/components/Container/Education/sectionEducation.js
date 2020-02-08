@@ -1,12 +1,22 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+import { spantextColor, titletextColor } from '../../../theme'
 import './sectionEducation.css'
 
+const Head = styled.div`
+    h2, h3{
+        color: ${titletextColor} !important;
+    }
+`
+const Spanhead = styled.span`
+    color: ${spantextColor} !important;
+`
 
 export default class Education extends Component {
     render() {
         return (
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-                <div className="w-100">
+                <Head className="w-100">
                     <h2 className="mb-5">Education</h2>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -21,7 +31,7 @@ export default class Education extends Component {
                             }
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">August 2014 - May 2020</span>
+                            <Spanhead className="text-primary">August 2014 - May 2020</Spanhead>
                         </div>
                     </div>
 
@@ -36,7 +46,7 @@ export default class Education extends Component {
                             }
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">August 2002 - May 2013</span>
+                            <Spanhead className="text-primary">August 2002 - May 2013</Spanhead>
                         </div>
                     </div>
 
@@ -54,9 +64,9 @@ export default class Education extends Component {
                         </div>
                          */
                     }
-                    
 
-                </div>
+
+                </Head>
             </section>
         );
     }

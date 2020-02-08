@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+import {titletextColor} from '../../../theme'
 import './sectionSkills.css'
 
+const Head = styled.div`
+    h2, h3{
+        color: ${titletextColor} !important;
+    }
+`
 
 export default class Skills extends Component {
     render() {
         return (
 
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-                <div className="w-100">
+                <Head className="w-100">
                     <h2 className="mb-5">Skills</h2>
 
                     <div className="subheading mb-3">Programming Languages &amp; Tools</div>
@@ -97,7 +104,7 @@ export default class Skills extends Component {
                              */
                         }
                     </ul>
-                </div>
+                </Head>
             </section>
         );
     }
