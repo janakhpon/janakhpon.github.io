@@ -8,13 +8,8 @@ const NavWrapper = styled.nav`
     background: ${navbackgroundColor} !important;
 `
 const Menu = (props) => {
-
-    console.log(props.theme)
-
     const [check, setCheck] = React.useState(false)
-
     const themeToggle = useTheme();
-
 
     const handleOnChange = async (e) => {
         if (check === true) {
@@ -22,18 +17,15 @@ const Menu = (props) => {
             try {
                 themeToggle.toggle()
             } catch (err) {
-
             }
         } else {
             setCheck(true)
             try {
                 themeToggle.toggle()
             } catch (err) {
-
             }
         }
     }
-
 
     return (
         <NavWrapper className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -55,7 +47,6 @@ const Menu = (props) => {
                             <div className="switch"></div>
                         </label>
                     </li>
-
                     <li className="nav-item">
                         <a className="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
@@ -76,6 +67,9 @@ const Menu = (props) => {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link js-scroll-trigger" href="#cv">CV/Resume</a>
                     </li>
                     {
                         /**
