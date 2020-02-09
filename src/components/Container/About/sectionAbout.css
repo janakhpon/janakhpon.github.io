@@ -1,0 +1,72 @@
+.social-icons>.one {
+    animation: one 2s linear infinite alternate !important;
+}
+
+.social-icons>.one:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused !important;
+    cursor: pointer;
+}
+
+.social-icons>.two {
+    animation: one 3s linear infinite alternate !important;
+}
+
+.social-icons>.two:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused !important;
+    cursor: pointer;
+}
+
+
+.social-icons>.three {
+    animation: one 4s linear infinite alternate !important;
+}
+
+.social-icons>.three:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused !important;
+    cursor: pointer;
+}
+
+.social-icons>.four {
+    animation: one 5s linear infinite alternate !important;
+}
+
+.social-icons>.four:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused !important;
+    cursor: pointer;
+}
+
+
+@keyframes one {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+    }
+
+    10%,
+    90% {
+        transform: translateX(15%);
+    }
+
+
+    40%,
+    60% {
+        transform: translateX(30%);
+    }
+
+
+}
+
+

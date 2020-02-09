@@ -29,16 +29,16 @@ export default class About extends Component {
                     </Subdiv>
                     <p className="lead mb-5"> Detailed-oriented and self-motivated fullstack engineer with both advanced education and solid experienced in technoloy. </p>
                     <div className="social-icons">
-                        <a href="https://www.linkedin.com/in/zinmin-htutoo-385651136">
+                        <a href="https://www.linkedin.com/in/zinmin-htutoo-385651136" className="one">
                             <i className="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://github.com/janakhpon">
+                        <a href="https://github.com/janakhpon" className="two">
                             <i className="fab fa-github"></i>
                         </a>
-                        <a href="https://twitter.com/ja_nakh">
+                        <a href="https://twitter.com/ja_nakh" className="three">
                             <i className="fab fa-twitter"></i>
                         </a>
-                        <a href="https://www.facebook.com/minchanhtutoo.5">
+                        <a href="https://www.facebook.com/minchanhtutoo.5" className="four">
                             <i className="fab fa-facebook-f"></i>
                         </a>
                     </div>
