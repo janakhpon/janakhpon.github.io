@@ -22,7 +22,7 @@ export default class Experience extends Component {
                         <div className="resume-content">
                             <h3 className="mb-0">Team Leader at GTG(Greentech Innovation Group)</h3>
                             <div className="subheading mb-3">Coding Community & Knowledge Sharing Platform</div>
-                            <p> Greentech Innovation Group was formed by me and my classmates since 2017 to share our Knowledge about IT technology to junior students and group members and it's also a coding commnutiy for helping coders overcome their errors and problems.</p>
+                            <p> Greentech Innovation Group was formed by me and my classmates since 2016 to share our Knowledge about IT technology to junior students and group members and it's also a coding commnutiy for helping coders overcome their errors and problems.</p>
                         </div>
                         <div className="resume-date text-md-right">
                             <Spanhead className="text-primary">Jan 2016 - Present</Spanhead>
