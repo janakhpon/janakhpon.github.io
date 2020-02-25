@@ -31,7 +31,7 @@ export default class Education extends Component {
                             }
                         </div>
                         <div className="resume-date text-md-right">
-                            <Spanhead className="text-primary">August 2014 - May 2020</Spanhead>
+                            <Spanhead className="text-primary">Jan 2014 - Feb 2020</Spanhead>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@ export default class Education extends Component {
                             }
                         </div>
                         <div className="resume-date text-md-right">
-                            <Spanhead className="text-primary">August 2002 - May 2013</Spanhead>
+                            <Spanhead className="text-primary">Jan 2002 - Jan 2013</Spanhead>
                         </div>
                     </div>
 

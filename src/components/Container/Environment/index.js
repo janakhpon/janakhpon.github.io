@@ -75,14 +75,14 @@ export default class Environment extends Component {
                         <div className="resume-content">
                             <h3 className="mb-0">Cloud Platforms</h3>
                             <div className="subheading mb-3">Development and Deployment Platforms</div>
-                            <p> I always using Heroku for the purpose of development and testing but sometimes I also use Google Cloud Environment, Firebase, AWS, Netlify, Zeit, Awardspace and 000Webhost. </p>
+                            <p> I always use Heroku for the purpose of development and testing but sometimes I also use Google Cloud Environment, Firebase, AWS, Netlify, Zeit, Awardspace and 000Webhost. </p>
                         </div>
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
                             <h3 className="mb-0">Programming Languages</h3>
-                            <p> Javascript and Python are the Languages I am using for development at the moment but i also used to code with Java,PHP and Shell Scripts. </p>
+                            <p> Javascript, Typescript and Python are the Languages I am using for development at the moment but i also used to code with Java,PHP and Shell Scripts. </p>
                         </div>
                         {/* <div className="resume-date text-md-right">
                             <span className="text-primary"><a href="/">VIEW PROJECTS</a></span>
