@@ -93,7 +93,7 @@ export default class Environment extends Component {
                         <div className="resume-content">
                             <h3 className="mb-0">Frameworks</h3>
                             <div className="subheading mb-3"> FRAMEWORKS & LIBRARIES </div>
-                            <p> React and Vue for frontend development and Material-ui, Bootstrap, semantic-ui for UI and SCSS/CSS3 for styling and Express, Django, Flask, NextJs, NestJS for Backend Development. For Cross platform development I use Electron.js and for mobile development React Native is my choice. And for Machine Learning i use Jupyter Notebook with Tensorflow, Keras and other popular libraries.  </p>
+                            <p> React and Vue for frontend development and Material-ui, Bootstrap, semantic-ui for UI and SCSS/CSS3 for styling and ExpressJS, Django, Flask, NextJs, NestJS for Backend Development. For Cross platform development I use Electron.js and for mobile development React Native is my choice. And for Machine Learning i use Jupyter Notebook with Tensorflow, Keras and other popular libraries.  </p>
                         </div>
                         {/* <div className="resume-date text-md-right">
                             <span className="text-primary"><a href="/">VIEW PROJECTS</a></span>
