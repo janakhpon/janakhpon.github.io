@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import {titletextColor, spantextColor} from '../../../theme'
+import { titletextColor, spantextColor } from '../../../theme'
 import './index.css'
 
 const Head = styled.div`

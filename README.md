@@ -22,7 +22,9 @@ Install Dependencies using [npm](https://www.npmjs.com/)
 
 Install Dependencies using [yarn](https://yarnpkg.com/en/)
 
-    yarn install
+    yarn check --latest --force
+    yarn upgrade --latest --force
+    yarn install --latest --force
     yarn add
     yarn start
     yarn dev
