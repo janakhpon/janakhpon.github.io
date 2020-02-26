@@ -22,7 +22,7 @@ export default class About extends Component {
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
                 <div className="w-100">
                     <Subhead className="mb-0">Ja Nakh
-                        <Spanhead className="text-primary"> Pon</Spanhead>
+                        <Spanhead className="text-primary">Pon</Spanhead>
                     </Subhead>
                     <Subdiv className="subheading mb-5">No.82 Khayay Street · Mawlamyine(moulmein), Ngantae Ward · <a href="tel:+9509792359726">(+95) 09 7923 59726 </a> ·
                     <a href="mailto:minchanhtutoo@gmail.com">minchanhtutoo@gmail.com</a>
@@ -38,7 +38,7 @@ export default class About extends Component {
                         <a href="https://twitter.com/ja_nakh" className="three">
                             <i className="fab fa-twitter"></i>
                         </a>
-                        <a href="https://www.facebook.com/minchanhtutoo.5" className="four">
+                        <a href="https://www.facebook.com/chan.htut.5" className="four">
                             <i className="fab fa-facebook-f"></i>
                         </a>
                     </div>

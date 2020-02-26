@@ -5,18 +5,18 @@
   "private": true,
   "engines": {
     "node": "12.14.1",
-    "yarn": "1.21.1",
+    "yarn": "1.22.0",
     "npm": "6.13.4"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.1.1",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^8.1.0",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^10.0.0",
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0",
     "styled-components": "^5.0.1",
     "styled-theming": "^2.2.0"
   },
