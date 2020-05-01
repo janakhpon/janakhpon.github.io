@@ -27,7 +27,7 @@ export default class About extends Component {
                     <Subdiv className="subheading mb-5">No.82 Khayay Street · Mawlamyine(moulmein), Ngantae Ward · <a href="tel:+9509792359726">(+95) 09 7923 59726 </a> ·
                     <a href="mailto:minchanhtutoo@gmail.com">minchanhtutoo@gmail.com</a>
                     </Subdiv>
-                    <p className="lead mb-5"> Detailed-oriented and self-motivated fullstack engineer with both advanced education and solid experienced in technoloy. </p>
+                    <p className="lead mb-5"> Detailed-oriented and self-motivated fullstack engineer with both advanced education and solid experienced in technology. </p>
                     <div className="social-icons">
                         <a href="https://www.linkedin.com/in/zinmin-htutoo-385651136" className="one">
                             <i className="fab fa-linkedin-in"></i>
