@@ -37,7 +37,7 @@ export default class Works extends Component {
                         <div className="resume-content">
                             <h3 className="mb-0">Fullstack Application Development</h3>
                             <div className="subheading mb-3">fully fleged web app projects collection</div>
-                            <p>Most of Fullstack projects are built by Django,Flask,NodeJS(NextJS,ExpressJS) as backend and React,Vue,Angular and normal template engine as frontend.</p>
+                            <p>Most of Fullstack projects are built by Python(Django, Flask), JavaScript(NextJS, ExpressJS), Typescript(ExpressJS, NestJS) and Golang(Gin)  as backend and React,Vue,Angular and other template engines(ejs, mustache, Handlebars, pug) as frontend.</p>
                         </div>
                         <div className="resume-date text-md-right">
                             <Spanhead className="text-primary"><a href="/">VIEW FULLSTACK PROJECTS</a></Spanhead>
