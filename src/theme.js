@@ -28,7 +28,7 @@ export const switchValue = theme('mode', {
 
 export const aofsubheadingdiv = theme('mode', {
   light: '#251e3e',
-  dark: '#ff0000'
+  dark: '#e84393'
 })
 
 export const subheadtextColor = theme('mode', {
@@ -38,7 +38,7 @@ export const subheadtextColor = theme('mode', {
 
 export const spantextColor = theme('mode', {
   light: '#247BA0',
-  dark: '#FF1654'
+  dark: '#fd79a8'
 })
 
 
