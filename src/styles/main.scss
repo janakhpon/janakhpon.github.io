@@ -6,15 +6,6 @@ body,
     font-family: 'Fira Code';
 }
 
-//HOW THIS WORKS:
-//The 0fr column takes up no space (yet).
-//The two 1fr columns are the toggle nub(??), and the ~visible~ empty space.
-//When checked, the left column becomes 1fr and the right column becomes 0fr, creating the effect of the nub moving.
-
-//====================
-
-//Change width or padding values freely :)
-//But for the 'nub' to look perfectly circular (at 1fr, i.e. 50%), the toggle's height must be half its width, plus the padding value
 $width: 55px;
 $padding: 2px;
 $height: $width / 2+$padding;
@@ -69,6 +60,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.253);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.253);
 }
 
 body::-webkit-scrollbar-thumb {

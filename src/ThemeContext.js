@@ -15,11 +15,8 @@ export const MyThemeProvider = ({ children }) => {
     return (
         <ThemeToggleContext.Provider value={{ toggle: toggle }}>
             <ThemeProvider
-                theme={{
-                    mode: themeState.mode
-                }}
-            >
-                {children}
+                theme={{ mode: themeState.mode }}
+            >{children}
             </ThemeProvider>
         </ThemeToggleContext.Provider>
     );

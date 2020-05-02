@@ -49,19 +49,6 @@ export default class Skills extends Component {
                         <li className="list-inline-item">
                             <i className="fab fa-sass"></i>
                         </li>
-                        {
-                            /**
-                             * 
-                             * <li className="list-inline-item">
-                                    <i className="fab fa-less"></i>
-                                 </li>
-
-                                 <li className="list-inline-item">
-                                    <i className="fab fa-wordpress"></i>
-                                 </li>
-                             */
-                        }
-
                         <li className="list-inline-item">
                             <i className="fab fa-gulp"></i>
                         </li>
@@ -101,20 +88,6 @@ export default class Skills extends Component {
                         <li>
                             <i className="fa-li fa fa-check"></i>
                             Mobile app Development</li>
-                        {
-                            /**
-                             * 
-                             * <li>
-                            <i className="fa-li fa fa-check"></i>
-                            Cross Browser Testing &amp; Debugging</li>
-                                <li>
-                            <i className="fa-li fa fa-check"></i>
-                            Cross Functional Teams</li>
-                                <li>
-                            <i className="fa-li fa fa-check"></i>
-                            Agile Development &amp; Scrum</li>
-                             */
-                        }
                     </ul>
                 </Head>
             </section>

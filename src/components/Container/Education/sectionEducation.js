@@ -39,33 +39,11 @@ export default class Education extends Component {
                         <div className="resume-content">
                             <h3 className="mb-0">NO(9) B.E.H.S , Basic Education High School</h3>
                             <div className="subheading mb-3">General Education Program</div>
-                            {
-                                /**
-                                 * <p>GPA: 3.23</p>
-                                 */
-                            }
                         </div>
                         <div className="resume-date text-md-right">
                             <Spanhead className="text-primary">Jan 2002 - Dec 2013</Spanhead>
                         </div>
                     </div>
-
-                    {
-                        /**
-                         * <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">ANNUAL IELTS EXAMINATION TEST</h3>
-                            <div className="subheading mb-3">Band 7 </div>
-                            <div>Specialized at Engineering</div>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">Sep - 2018</span>
-                            </div>
-                        </div>
-                         */
-                    }
-
-
                 </Head>
             </section>
         );
