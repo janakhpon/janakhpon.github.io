@@ -35,9 +35,6 @@ export default class Environment extends Component {
                             <div className="subheading mb-3">Conmmand Line Environment I've been using</div>
                             <p>I am a big fan of Z-Shell especially with Oh-My-Zsh and I am also familiar with Bash Shell and Windows Command Prompt. </p>
                         </div>
-                        {/* <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">SHELL CONFIGURATION</a></span>
-                        </div> */}
                     </div>
 
 
@@ -47,9 +44,6 @@ export default class Environment extends Component {
                             <div className="subheading mb-3">VCS I've been using </div>
                             <p> I've been using Github since 2018 as my main VCS most of the time and sometimes i use Gitlab for my side projects. </p>
                         </div>
-                        {/* <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW DESIGN LIBRARIES PROJECTS</a></span>
-                        </div> */}
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -58,9 +52,6 @@ export default class Environment extends Component {
                             <div className="subheading mb-3">SQL and NoSQL Databases I've been using </div>
                             <p> My database of choice is MongoDB and PostgreSql but I'm also familiar with Sqlite, MySQL, Firebase and Redis for caching. </p>
                         </div>
-                        {/* <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW DATABASE CONFIGURATION</a></span>
-                        </div> */}
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -84,9 +75,6 @@ export default class Environment extends Component {
                             <h3 className="mb-0">Programming Languages</h3>
                             <p> JavaScript, Typescript, Golang and Python are the Languages I am using for development at the moment but i also used to code with JavaSE/EE and PHP. </p>
                         </div>
-                        {/* <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW PROJECTS</a></span>
-                        </div> */}
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -95,13 +83,8 @@ export default class Environment extends Component {
                             <div className="subheading mb-3"> FRAMEWORKS & LIBRARIES </div>
                             <p> I use React with Material-ui for frontend development most of the time and sometimes with Vue as well as Bootstrap, semantic-ui for UI and SCSS/CSS3 for styling and ExpressJS, Gin, Mux, Django, Flask, NextJs, NestJS for Backend Development. For Cross platform development I use Electron.js, for mobile development React Native is my choice and for Machine Learning i use Jupyter Notebook with Tensorflow, Keras and other popular libraries.  </p>
                         </div>
-                        {/* <div className="resume-date text-md-right">
-                            <span className="text-primary"><a href="/">VIEW PROJECTS</a></span>
-                        </div> */}
                     </div>
-
                 </Head>
-
             </section>
         );
     }
