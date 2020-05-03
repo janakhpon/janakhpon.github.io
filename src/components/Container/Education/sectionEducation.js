@@ -23,7 +23,7 @@ export default class Education extends Component {
                         <div className="resume-content">
                             <h3 className="mb-0">Technological University( Mawlamyine )</h3>
                             <div className="subheading mb-3">Bachelor of Engineering (BE.IT)</div>
-                            <div>Specialized at Information Technology</div>
+                            <div>Specialized in Information Technology</div>
                             {
                                 /**
                                  * <p>GPA: 3.23</p>
