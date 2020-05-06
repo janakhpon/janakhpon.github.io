@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components'
+import ReactGA from 'react-ga'
+import { PageView } from '../../../Elements'
 import { titletextColor } from '../../../theme'
 import './sectionInterests.css'
 
@@ -9,8 +11,9 @@ const Head = styled.div`
     }
 `
 
-export default class Interests extends Component {
-    render() {
+const Interests = () => {
+    ReactGA.initialize('UA-165287353-1')
+    PageView()
         return (
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
                 <Head className="w-100">
@@ -21,5 +24,6 @@ export default class Interests extends Component {
                 </Head>
             </section>
         );
-    }
 }
+
+export default Interests
