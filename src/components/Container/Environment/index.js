@@ -53,7 +53,7 @@ const Environment = () => {
                     <div className="resume-content">
                         <h3 className="mb-0">Databases</h3>
                         <div className="subheading mb-3">SQL and NoSQL Databases I've been using </div>
-                        <p> My database of choice is MongoDB and PostgreSql but I'm also familiar with Sqlite, MySQL, Firebase and for caching I use Redis,Memcached and Gocache. </p>
+                        <p> My database of choice is MongoDB and PostgreSql but I'm also familiar with Sqlite, MySQL, Firebase and for caching I use Redis, Memcached, Groupcache and Gocache. </p>
                     </div>
                 </div>
 
