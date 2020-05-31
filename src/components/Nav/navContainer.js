@@ -2,12 +2,13 @@ import React from 'react'
 import { useTheme } from '../../ThemeContext';
 import styled from 'styled-components';
 import { navbackgroundColor, navtextColor } from '../../theme';
+import { Event } from '../../Elements'
 
 const NavWrapper = styled.nav`
     color: ${navtextColor} !important;
     background: ${navbackgroundColor} !important;
 `
-const Menu = (props) => {
+const Menu = () => {
     const [check, setCheck] = React.useState(false)
     const themeToggle = useTheme();
 
@@ -25,6 +26,7 @@ const Menu = (props) => {
             } catch (err) {
             }
         }
+        Event("Dark&Light Button", `toggle between Dark mode and Light mode`, "Navbar Component")
     }
 
     return (
@@ -71,15 +73,6 @@ const Menu = (props) => {
                     <li className="nav-item">
                         <a className="nav-link js-scroll-trigger" href="#CV">Resume</a>
                     </li>
-                    {
-                        /**
-                         * 
-                         *  <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#awards">Awards</a>
-                            </li>
-                         * 
-                         */
-                    }
                 </ul>
             </div>
         </NavWrapper>
