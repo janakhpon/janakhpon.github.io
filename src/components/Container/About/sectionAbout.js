@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import styled from 'styled-components'
 import ReactGA from 'react-ga'
 import { PageView } from '../../../Elements'
 import { aofsubheadingdiv, spantextColor, subheadtextColor } from '../../../theme'
+import { Text, LanguageContext } from '../../../LangProvider';
 import './sectionAbout.css'
 
 const Subdiv = styled.div`
@@ -21,6 +22,7 @@ const Spanhead = styled.span`
 const About = () => {
     ReactGA.initialize('UA-165287353-1')
     PageView()
+    const languageContext = useContext(LanguageContext)
 
     return (
         <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
@@ -28,10 +30,21 @@ const About = () => {
                 <Subhead className="mb-0">Ja Nakh
                         <Spanhead className="text-primary">Pon</Spanhead>
                 </Subhead>
-                <Subdiv className="subheading mb-5">No.82 Khayay Street · Ngantae Ward, Mawlamyine(moulmein) · <a href="tel:+9509792359726">(+95) 09 7923 59726 </a> ·
-                    <a href="mailto:minchanhtutoo@gmail.com">minchanhtutoo@gmail.com</a>
+                <>
+
+                {languageContext.language.id === 'en' ? (<>
+                    <Subdiv className="subheading mb-5"><Text tid="idaddress" /><a href="tel:+9509792359726"><Text tid="idphonenumber" /></a> ·
+                    <a href="mailto:minchanhtutoo@gmail.com">&nbsp;minchanhtutoo@gmail.com</a>
                 </Subdiv>
-                <p className="lead mb-5"> Detailed-oriented and self-motivated fullstack engineer with both advanced education and solid experienced in modern tech stacks.  </p>
+                                    </>) : (<>
+                <Subdiv className="subheading mb-5 reduceFontSize"><Text tid="idaddress" /><a href="tel:+9509792359726"><Text tid="idphonenumber" /></a> • 
+                    <a href="mailto:minchanhtutoo@gmail.com">&nbsp;minchanhtutoo@gmail.com</a>
+                </Subdiv>
+                </>)}
+
+                </>
+                
+                <p className="lead mb-5"> <Text tid="mydescription" /></p>
                 <div className="social-icons">
                     <a href="https://www.linkedin.com/in/zinmin-htutoo-385651136" className="one">
                         <i className="fab fa-linkedin-in"></i>

@@ -1,0 +1,13 @@
+
+
+.selectWrapper {
+  font-weight: bold !important;
+  color: whitesmoke !important;
+  border: none !important;
+  outline: none !important;
+  width: 50% !important;
+  height: 100% !important;
+  font-size: 0.95em !important;
+  padding: 0.5rem !important;
+  margin: 0.5rem !important;
+}

@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useTheme } from '../../ThemeContext';
 import styled from 'styled-components';
 import { navbackgroundColor, navtextColor } from '../../theme';
 import { Event } from '../../Elements'
+import { languageOptions } from '../../Languages'
+import { LanguageContext, Text } from '../../LangProvider'
+
+import './navContainer.css'
 
 const NavWrapper = styled.nav`
     color: ${navtextColor} !important;
     background: ${navbackgroundColor} !important;
 `
+
+const SelectWrapper = styled.select`
+    background: ${navbackgroundColor} !important;
+`
+
 const Menu = () => {
     const [check, setCheck] = React.useState(false)
     const themeToggle = useTheme();
@@ -28,6 +37,15 @@ const Menu = () => {
         }
         Event("Dark&Light Button", `toggle between Dark mode and Light mode`, "Navbar Component")
     }
+
+    const languageContext = useContext(LanguageContext)
+    const handleLanguageChange = (event) => {
+        Event("Language Switch", `selected ${event.target.value}`, "Navbar")
+        const selectedLanguage = languageOptions.find(item => item.id === event.target.value)
+        languageContext.setLanguage(selectedLanguage)
+        
+    };
+
 
     return (
         <NavWrapper className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -50,28 +68,44 @@ const Menu = () => {
                         </label>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#about">About</a>
+                        <SelectWrapper
+                            onChange={handleLanguageChange}
+                            value={languageContext.language.id}
+                            className="selectWrapper"
+                        >
+                            {languageOptions.map(item => (
+                                <option
+                                    key={item.id}
+                                    value={item.id}
+                                >
+                                    {item.text}
+                                </option>
+                            ))}
+                        </SelectWrapper>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                        <a className="nav-link js-scroll-trigger" href="#about"><Text tid="idabout" /></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#education">Education</a>
+                        <a className="nav-link js-scroll-trigger" href="#experience"><Text tid="idexperience" /></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                        <a className="nav-link js-scroll-trigger" href="#education"><Text tid="ideducation" /></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#works">Works</a>
+                        <a className="nav-link js-scroll-trigger" href="#skills"><Text tid="idskills" /></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#environment">Environment</a>
+                        <a className="nav-link js-scroll-trigger" href="#works"><Text tid="idworks" /></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                        <a className="nav-link js-scroll-trigger" href="#environment"><Text tid="idenvironment" /></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#CV">Resume</a>
+                        <a className="nav-link js-scroll-trigger" href="#interests"><Text tid="idinterests" /></a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link js-scroll-trigger" href="#CV"><Text tid="idresume" /></a>
                     </li>
                 </ul>
             </div>
