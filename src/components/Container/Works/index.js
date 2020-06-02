@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ReactGA from 'react-ga'
 import { PageView } from '../../../Elements'
+import { Text } from '../../../LangProvider'
 import { titletextColor, spantextColor } from '../../../theme'
 import './index.css'
 
@@ -23,7 +24,7 @@ const Works = () => {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="works">
             <Head className="w-100">
-                <h2 className="mb-5">Projects</h2>
+                <h2 className="mb-5"><Text tid="idworks" /></h2>
 
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">

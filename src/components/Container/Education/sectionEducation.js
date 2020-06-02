@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ReactGA from 'react-ga'
 import { PageView } from '../../../Elements'
+import { Text } from '../../../LangProvider'
 import { spantextColor, titletextColor } from '../../../theme'
 import './sectionEducation.css'
 
@@ -20,13 +21,13 @@ const Education = () => {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
             <Head className="w-100">
-                <h2 className="mb-5">Education</h2>
+                <h2 className="mb-5"><Text tid="ideducation" /></h2>
 
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
-                        <h3 className="mb-0">Technological University( Mawlamyine )</h3>
-                        <div className="subheading mb-3">Bachelor of Engineering (BE.IT)</div>
-                        <div>Specialized in Information Technology</div>
+                        <h3 className="mb-0"><Text tid="ideducationheader1" /></h3>
+                        <div className="subheading mb-3"><Text tid="ideducationheader1content1" /></div>
+                        <div><Text tid="ideducationheader1content2" /></div>
                         {
                             /**
                              * <p>GPA: 3.23</p>
@@ -34,17 +35,17 @@ const Education = () => {
                         }
                     </div>
                     <div className="resume-date text-md-right">
-                        <Spanhead className="text-primary">Jan 2014 - Dec 2020</Spanhead>
+                        <Spanhead className="text-primary"><Text tid="ideducationheader1time" /></Spanhead>
                     </div>
                 </div>
 
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                     <div className="resume-content">
-                        <h3 className="mb-0">NO(9) B.E.H.S , Basic Education High School</h3>
-                        <div className="subheading mb-3">General Education Program</div>
+                        <h3 className="mb-0"><Text tid="ideducationheader2" /></h3>
+                        <div className="subheading mb-3"><Text tid="ideducationheader2content1" /></div>
                     </div>
                     <div className="resume-date text-md-right">
-                        <Spanhead className="text-primary">Jan 2002 - Dec 2013</Spanhead>
+                        <Spanhead className="text-primary"><Text tid="ideducationheader2time" /></Spanhead>
                     </div>
                 </div>
             </Head>

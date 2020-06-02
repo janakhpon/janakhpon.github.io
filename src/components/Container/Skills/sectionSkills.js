@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ReactGA from 'react-ga'
 import { PageView } from '../../../Elements'
+import { Text } from '../../../LangProvider'
 import { titletextColor } from '../../../theme'
 import './sectionSkills.css'
 
@@ -18,7 +19,7 @@ const Skills = () => {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
             <Head className="w-100">
-                <h2 className="mb-5">Skills</h2>
+                <h2 className="mb-5"><Text tid="idskills" /></h2>
 
                 <div className="subheading mb-3">Programming Languages &amp; Tools</div>
                 <ul className="list-inline dev-icons">

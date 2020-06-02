@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ReactGA from 'react-ga'
 import { PageView } from '../../../Elements'
+import { Text } from '../../../LangProvider'
 import { titletextColor } from '../../../theme'
 import './index.css'
 
@@ -18,7 +19,7 @@ const Environment = () => {
     return (
         <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="environment">
             <Head className="w-100">
-                <h2 className="mb-5">Development Environment</h2>
+                <h2 className="mb-5"><Text tid="idenvironment" /></h2>
 
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
@@ -53,7 +54,7 @@ const Environment = () => {
                     <div className="resume-content">
                         <h3 className="mb-0">Databases</h3>
                         <div className="subheading mb-3">SQL and NoSQL Databases I've been using </div>
-                        <p> My database of choice is MongoDB and PostgreSql but I'm also familiar with Sqlite, MySQL, Firebase and for caching I use Redis, Memcached, Groupcache and Gocache. </p>
+                        <p> My database of choice is MongoDB and PostgreSql but I'm also familiar with Sqlite, MySQL, Firebase and for caching I use Redis, Memcached, Ristretto and Gocache. </p>
                     </div>
                 </div>
 

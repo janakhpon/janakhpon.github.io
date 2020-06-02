@@ -2,6 +2,7 @@ import React from 'react';
 import ReactGA from 'react-ga'
 import Menu from './components/Nav/navContainer'
 import Container from './components/Container/displayContainer'
+import { LanguageProvider } from './LangProvider'
 import history from './History'
 import './styles/main.scss'
 
@@ -16,8 +17,10 @@ const App = () => {
 
   return (
     <div>
-      <Menu />
-      <Container />
+      <LanguageProvider>
+        <Menu />
+        <Container />
+      </LanguageProvider>
     </div>
   )
 
