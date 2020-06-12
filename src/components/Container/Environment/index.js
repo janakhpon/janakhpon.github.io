@@ -77,7 +77,7 @@ const Environment = () => {
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
                         <h3 className="mb-0">Programming Languages</h3>
-                        <p> JavaScript, Typescript, <code> Golang </code>, Rustlang and Python are the Languages I am using for development at the moment but i also used to code with JavaSE/EE and PHP. </p>
+                        <p> JavaScript, Typescript, <code> <b> Golang  </b> </code>, Rustlang and Python are the Languages I am using for development at the moment but i also used to code with JavaSE/EE and PHP. </p>
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@ const Environment = () => {
                         <h3 className="mb-0">Frameworks</h3>
                         <div className="subheading mb-3"> FRAMEWORKS & LIBRARIES </div>
                         <p> I use <code> React with Material-ui </code> for frontend development most of the time and sometimes with Vue as well as Bootstrap, semantic-ui for UI and
-                         SCSS/CSS3 for styling and  ExpressJS, <code>Gin, Fiber</code> Mux, Django, Flask, NextJs, NestJS, Rocket for the Backend Development. For Cross platform development I use Electron.js, for mobile development React Native is my choice and for Machine Learning i use Jupyter Notebook with Tensorflow, Keras and other popular libraries.  </p>
+                         SCSS/CSS3 for styling and  ExpressJS, <code>Gin, Fiber, </code> Mux, Django, Flask, NextJs, NestJS, Rocket for the Backend Development. For Cross platform development I use Electron.js, for mobile development React Native is my choice and for Machine Learning i use Jupyter Notebook with Tensorflow, Keras and other popular libraries.  </p>
                     </div>
                 </div>
             </Head>
