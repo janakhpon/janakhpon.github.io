@@ -37,7 +37,7 @@ const Environment = () => {
                     <div className="resume-content">
                         <h3 className="mb-0">Command Line Environment</h3>
                         <div className="subheading mb-3">Conmmand Line Environment I've been using</div>
-                        <p>I am a big fan of Z-Shell especially with Oh-My-Zsh and I am also familiar with Bash Shell and Windows Command Prompt. </p>
+                        <p>I am a big fan of Z-Shell especially with <code>Oh-My-Zsh</code> and I am also familiar with Bash Shell and Windows Command Prompt. </p>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ const Environment = () => {
                     <div className="resume-content">
                         <h3 className="mb-0">Databases</h3>
                         <div className="subheading mb-3">SQL and NoSQL Databases I've been using </div>
-                        <p> My database of choice is MongoDB and PostgreSql but I'm also familiar with Sqlite, MySQL, Firebase and for caching I use Redis, Memcached, Ristretto and Gocache. </p>
+                        <p> My database of choice is MongoDB and PostgreSql but I'm also familiar with Elasticsearch, Sqlite, MySQL, Firebase and for caching I use Redis, Memcached, Ristretto and Gocache. </p>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ const Environment = () => {
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
                         <h3 className="mb-0">Programming Languages</h3>
-                        <p> JavaScript, Typescript, Golang and Python are the Languages I am using for development at the moment but i also used to code with JavaSE/EE and PHP. </p>
+                        <p> JavaScript, Typescript, <code> <b> Golang  </b> </code>, Rustlang and Python are the Languages I am using for development at the moment but i also used to code with JavaSE/EE and PHP. </p>
                     </div>
                 </div>
 
@@ -85,7 +85,8 @@ const Environment = () => {
                     <div className="resume-content">
                         <h3 className="mb-0">Frameworks</h3>
                         <div className="subheading mb-3"> FRAMEWORKS & LIBRARIES </div>
-                        <p> I use React with Material-ui for frontend development most of the time and sometimes with Vue as well as Bootstrap, semantic-ui for UI and SCSS/CSS3 for styling and ExpressJS, Gin, Mux, Django, Flask, NextJs, NestJS for Backend Development. For Cross platform development I use Electron.js, for mobile development React Native is my choice and for Machine Learning i use Jupyter Notebook with Tensorflow, Keras and other popular libraries.  </p>
+                        <p> I use <code> React with Material-ui </code> for frontend development most of the time and sometimes with Vue as well as Bootstrap, semantic-ui for UI and
+                         SCSS/CSS3 for styling and  ExpressJS, <code>Gin, Fiber, </code> Mux, Django, Flask, NextJs, NestJS, Rocket for the Backend Development. For Cross platform development I use Electron.js, for mobile development React Native is my choice and for Machine Learning i use Jupyter Notebook with Tensorflow, Keras and other popular libraries.  </p>
                     </div>
                 </div>
             </Head>
