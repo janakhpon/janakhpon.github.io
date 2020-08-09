@@ -24,6 +24,26 @@ const Experience = () => {
                 <h2 className="mb-5"><Text tid="idexperience" /></h2>
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
+                        <h3 className="mb-0"><Text tid="idexperienceheader3" /></h3>
+                        <div className="subheading mb-3"><Text tid="idexperienceheader3content1" /></div>
+                        <p><Text tid="idexperienceheader3content2" /></p>
+                    </div>
+                    <div className="resume-date text-md-right">
+                        <Spanhead className="text-primary"><Text tid="idexperienceheader3time" /></Spanhead>
+                    </div>
+                </div>
+                <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="resume-content">
+                        <h3 className="mb-0"><Text tid="idexperienceheader2" /></h3>
+                        <div className="subheading mb-3"><Text tid="idexperienceheader2content1" /></div>
+                        <p><Text tid="idexperienceheader2content2" /></p>
+                    </div>
+                    <div className="resume-date text-md-right">
+                        <Spanhead className="text-primary"><Text tid="idexperienceheader2time" /></Spanhead>
+                    </div>
+                </div>
+                <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="resume-content">
                         <h3 className="mb-0"><Text tid="idexperienceheader1" /></h3>
                         <div className="subheading mb-3"><Text tid="idexperienceheader1content1" /></div>
                         <p><Text tid="idexperienceheader1content2" /></p>
