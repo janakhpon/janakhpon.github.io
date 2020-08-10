@@ -33,13 +33,13 @@ const Environment = () => {
                 </div>
 
 
-                <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                {/* <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
                         <h3 className="mb-0">Command Line Environment</h3>
                         <div className="subheading mb-3">Conmmand Line Environment I've been using</div>
                         <p>I am a big fan of Z-Shell especially with <code>Oh-My-Zsh</code> and I am also familiar with Bash Shell and Windows Command Prompt. </p>
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -60,17 +60,9 @@ const Environment = () => {
 
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="resume-content">
-                        <h3 className="mb-0">Container</h3>
-                        <div className="subheading mb-3"> I've been using Docker for development and deployment with Container. </div>
-                    </div>
-                </div>
-
-
-                <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div className="resume-content">
-                        <h3 className="mb-0">Cloud Platforms</h3>
+                        <h3 className="mb-0">Platforms</h3>
                         <div className="subheading mb-3">Development and Deployment Platforms</div>
-                        <p> I always use Heroku for the purpose of development and testing but sometimes I also use Google Cloud Environment, Firebase, AWS, Netlify, Zeit, Awardspace and 000Webhost. </p>
+                        <p> I always use Heroku for the purpose of development and testing but sometimes I also use Google Cloud Environment, Firebase, AWS, Netlify, Zeit, Awardspace and 000Webhost. Sometimes, I use Docker for deployment. </p>
                     </div>
                 </div>
 

@@ -33,11 +33,15 @@ const About = () => {
                 <>
 
                 {languageContext.language.id === 'en' ? (<>
-                    <Subdiv className="subheading mb-5"><Text tid="idaddress" /><a href="tel:+9509792359726"><Text tid="idphonenumber" /></a> ·
+                    <Subdiv className="subheading mb-5">
+                        
+                        {/* <Text tid="idaddress" /><a href="tel:+9509792359726"><Text tid="idphonenumber" /></a> · */}
                     <a href="mailto:minchanhtutoo@gmail.com">&nbsp;minchanhtutoo@gmail.com</a>
                 </Subdiv>
                                     </>) : (<>
-                <Subdiv className="subheading mb-5 reduceFontSize"><Text tid="idaddress" /><a href="tel:+9509792359726"><Text tid="idphonenumber" /></a> • 
+                <Subdiv className="subheading mb-5 reduceFontSize">
+                    
+                    {/* <Text tid="idaddress" /><a href="tel:+9509792359726"><Text tid="idphonenumber" /></a> •  */}
                     <a href="mailto:minchanhtutoo@gmail.com">&nbsp;minchanhtutoo@gmail.com</a>
                 </Subdiv>
                 </>)}
